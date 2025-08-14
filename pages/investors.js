@@ -51,6 +51,6 @@ export default function Investors({ investors }) {
 }
 
 export async function getStaticProps() {
-  const investors = await import("../public/data/investors.json").then(m => m.default);
+  const investors = await import("../public/data/dashboard.json").then(m => m.default);
   return { props: { investors } };
 }
