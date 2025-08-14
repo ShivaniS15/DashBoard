@@ -1,0 +1,157 @@
+
+
+/* ===== Dashboard Layout ===== */
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background-color: #f5f6fa;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .dashboard-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ===== Card Style ===== */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* ===== Transaction Snapshot ===== */
+.transaction-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.transaction-grid div p:first-child {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.text-green {
+  color: #22c55e;
+}
+
+.text-red {
+  color: #ef4444;
+}
+
+/* ===== To-Do Section ===== */
+.todo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.todo-list li:last-child {
+  border-bottom: none;
+}
+
+.todo-buttons button {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.todo-buttons .wish-btn {
+  background-color: #22c55e;
+}
+
+.todo-buttons .wish-btn:hover {
+  background-color: #16a34a;
+}
+
+.todo-buttons .remind-btn {
+  background-color: #3b82f6;
+}
+
+.todo-buttons .remind-btn:hover {
+  background-color: #2563eb;
+}
+
+.todo-buttons .disabled-btn {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* ===== Assets Under Management ===== */
+.aum-list {
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.aum-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.aum-list li:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* ===== Market Overview ===== */
+.market-values {
+  display: flex;
+  justify-content: space-between;
+}
+
+.market-values div p:first-child {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.market-values div p:nth-child(2) {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* ===== Leads Overview ===== */
+.leads-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .leads-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

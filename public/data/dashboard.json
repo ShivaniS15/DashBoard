@@ -1,0 +1,70 @@
+{
+  "transactions": {
+    "inflow": 7540000,
+    "outflow": 5260000,
+    "count": 432
+  },
+  "todos": [
+    { "id": 1, "message": "Call client about renewal", "status": "pending" },
+    { "id": 2, "message": "Send investment summary to Priya", "status": "pending" },
+    { "id": 3, "message": "Wish Ravi for birthday", "status": "pending" },
+    { "id": 4, "message": "Prepare portfolio analysis for Q3", "status": "pending" },
+    { "id": 5, "message": "Email tax-saving tips to investors", "status": "pending" },
+    { "id": 6, "message": "Follow up with lead from webinar", "status": "pending" },
+    { "id": 7, "message": "Check documentation for new client", "status": "pending" },
+    { "id": 8, "message": "Arrange meeting with mutual fund distributor", "status": "pending" },
+    { "id": 9, "message": "Confirm payment with Rajesh", "status": "pending" },
+    { "id": 10, "message": "Update risk profile forms", "status": "pending" }
+  ],
+  "assets": {
+    "total": 12500000,
+    "schemes": [
+      { "name": "Equity Fund", "value": 5000000 },
+      { "name": "Debt Fund", "value": 3000000 },
+      { "name": "Hybrid Fund", "value": 2000000 },
+      { "name": "International Fund", "value": 1000000 },
+      { "name": "Small Cap Fund", "value": 800000 },
+      { "name": "Index Fund", "value": 700000 }
+    ]
+  },
+  "market": {
+    "nse": { "value": 19825.45, "change": 0.56 },
+    "bse": { "value": 66321.88, "change": -0.28 }
+  },
+  "leads": {
+    "categories": [
+      { "name": "Hot Leads", "value": 48 },
+      { "name": "Warm Leads", "value": 72 },
+      { "name": "Cold Leads", "value": 34 },
+      { "name": "Lost Leads", "value": 15 }
+    ],
+    "trend": [
+      { "month": "Jan", "value": 15 },
+      { "month": "Feb", "value": 22 },
+      { "month": "Mar", "value": 34 },
+      { "month": "Apr", "value": 45 },
+      { "month": "May", "value": 39 },
+      { "month": "Jun", "value": 50 },
+      { "month": "Jul", "value": 41 },
+      { "month": "Aug", "value": 55 },
+      { "month": "Sep", "value": 48 },
+      { "month": "Oct", "value": 60 },
+      { "month": "Nov", "value": 52 },
+      { "month": "Dec", "value": 65 }
+    ]
+  },
+  "investors": [
+    { "id": 1, "name": "Amit Sharma", "scheme": "Equity Fund", "investment": 1500000 },
+    { "id": 2, "name": "Priya Verma", "scheme": "Debt Fund", "investment": 800000 },
+    { "id": 3, "name": "Rajesh Kumar", "scheme": "Hybrid Fund", "investment": 500000 },
+    { "id": 4, "name": "Sunita Singh", "scheme": "International Fund", "investment": 300000 },
+    { "id": 5, "name": "Mohit Jain", "scheme": "Small Cap Fund", "investment": 250000 },
+    { "id": 6, "name": "Neha Gupta", "scheme": "Index Fund", "investment": 200000 },
+    { "id": 7, "name": "Vikas Yadav", "scheme": "Equity Fund", "investment": 1000000 },
+    { "id": 8, "name": "Shalini Batra", "scheme": "Debt Fund", "investment": 1200000 },
+    { "id": 9, "name": "Karan Malhotra", "scheme": "Hybrid Fund", "investment": 750000 },
+    { "id": 10, "name": "Anjali Mehra", "scheme": "Small Cap Fund", "investment": 400000 },
+    { "id": 11, "name": "Deepak Mishra", "scheme": "Equity Fund", "investment": 2000000 },
+    { "id": 12, "name": "Ritika Sethi", "scheme": "International Fund", "investment": 450000 }
+  ]
+}
